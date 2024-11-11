@@ -1,17 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(228, 200, 253);
 }
 
 .heading {
+    
+    max-width: 10em;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: red;
+    border: 2px dotted white;
+    padding: 5px 0px;
+    margin: 0 auto;
 }
 
-.text1 {
+.recipe-list {
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(115, 184, 175);
-    
+    border: 2px solid black;
+    padding: 5px;
+    max-width: 100em;
+}
+
+.recipe-list2 {
+    font-size: 18px;
+    background-color: brown;
+    border: 2px solid blue;
+    padding: 5px;
+    max-width: 200em;
 }
 
 .specialText {
@@ -20,3 +40,21 @@ body {
     font-weight: bold;
 }
 
+
+
+.para{
+    display: inline-block;
+    border: 2px solid blue;
+    background-color: rgb(255, 255, 209);
+    padding: 3px;
+    margin-left:0 auto;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.image {
+    display: inline-block;
+}
